@@ -1,0 +1,51 @@
+@font-face {
+    font-family: fira-sans;
+    src: url(../fonts/FiraSans-Medium.ttf);
+}
+
+*{
+    font-family: fira-sans;
+    font-size: 15px;
+}
+
+header{
+    display: flex;
+    margin: 3px 4px 5px 6px;
+    padding: 21px 10px 19px 10px;
+}
+
+header img{
+    width: 75px;
+    height: 75px;
+    margin: 0 15px 0 15px;
+}
+
+@media screen and (max-width:480px) {
+    header img{
+        width: 30px;
+        height: 30px
+    }
+    
+}
+
+h1{
+    text-align: center;
+    /* width: 50px;
+    height: 20px; */
+    margin: 26px 180px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    padding: 0px 30px;
+}
+.center{
+    background-color: blue;
+    color: azure;
+}
